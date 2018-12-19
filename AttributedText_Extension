@@ -1,6 +1,6 @@
-// This code will help u to apply specific colors to diffrent text in  a single label 
+  //This code will help u to apply specific colors to diffrent text in  a single label 
 
-extension UILabel {
+ extension UILabel {
     func MyAttributedText (fullText : String , changeText : String ) {
         let strNumber: NSString = fullText as NSString
         let range = (strNumber).range(of: changeText)
